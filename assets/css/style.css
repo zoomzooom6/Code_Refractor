@@ -52,10 +52,10 @@ p {
 
 .headingPicture {
     margin-bottom: 25px;
-    height: 800px;
     width: 100%;
-    object-position: center;
+    height: 800px;
     object-fit: cover;
+
 }
 
 .float-left {
