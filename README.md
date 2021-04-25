@@ -6,4 +6,4 @@
 * Condense CSS for improved legibility
 * Ensure defined classes flow and follow logical hierarchy
 
-The original source code is available [here] (https://github.com/coding-boot-camp/urban-octo-telegram)
+The original source code is available [here](https://github.com/coding-boot-camp/urban-octo-telegram)
