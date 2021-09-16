@@ -29,10 +29,10 @@ https://zoomzooom6.github.io/Code_Refractor/
 
 ## Final Results
 Main index layout
-<img src='' alt='Main index.html layout' />
+<img src='./assets/images/MainIndexLayout.jpg' alt='Main index.html layout' />
 
 CSS Structuring Sample
-<img src='' alt='CSS structure sample' />
+<img src='./assets/images/CSS_Structure.jpg' alt='CSS structure sample' />
 
 Image element alt attributes
-<img src='' alt='Image element alt tags' />
+<img src='./assets/images/ImageElementsAlts.jpg' alt='Image element alt tags' />
