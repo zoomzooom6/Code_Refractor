@@ -8,15 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Configure header to display items using flex */
 .header {
-    padding: 20px;
+    padding: 15px 35px 15px 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .header h1 {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-size: 48px;
 }
 
@@ -24,19 +34,21 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+header nav {
+    margin: 7px 0;
 }
 
-.header div ul {
-    list-style-type: none;
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 15px 0 0;
 }
 
-.header div ul li {
+/* spaces out each list element */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,12 +62,15 @@ p {
     font-size: 16px;
 }
 
-.headingPicture {
-    margin-bottom: 25px;
-    width: 100%;
-    height: 800px;
-    object-fit: cover;
-
+/* Sets a hero section with a picture from the assets folder */
+.hero {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 50vmax;
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .float-left {
@@ -119,6 +134,7 @@ p {
     font-size: 36px;
 }
 
+/* Ensure spacing for footer from rest of content */
 .footer {
     padding: 30px;
     clear: both;
