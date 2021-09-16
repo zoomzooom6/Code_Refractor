@@ -35,4 +35,4 @@ CSS Structuring Sample
 <img src='./assets/images/CSS_Structure.jpg' alt='CSS structure sample' />
 
 Image element alt attributes
-<img src='./assets/images/ImageElementsAlts.jpg' alt='Image element alt tags' />
+<img src='./assets/images/ImageElementAlts.jpg' alt='Image element alt tags' />
